@@ -6,13 +6,13 @@ form.addEventListener('submit' , function (e){
     const velocidadeA = document.getElementById("campoA")
     const velocidadeB = document.getElementById("campoB")
 
-    let primeiroCampo = parseFloat(velocidadeA.value)
-    let segundoCampo = parseFloat(velocidadeB.value)
+    // let primeiroCampo = parseFloat(velocidadeA.value)
+    // let segundoCampo = parseFloat(velocidadeB.value)
     
-    if (primeiroCampo > segundoCampo){
+    if (velocidadeA.value > velocidadeB.value){
         alert('A Primeira Velocidade inserida esta Maior');
     }
-    else if (primeiroCampo < segundoCampo){
+    else if (velocidadeA.value < velocidadeB.value){
         alert('A segunda Velocidade inserida esta Maior ');
     }
     velocidadeA.value = ' '
