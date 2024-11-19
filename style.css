@@ -1,0 +1,42 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.formulario{
+    border-radius: 7px;
+    text-align: center;
+    color: #0a165c;
+    padding: 20px ;
+    width: 400px;
+    background-color: rgb(173, 191, 229);
+}
+
+form input, button{
+    outline: none;
+    border: none;
+    display: block;
+    border-radius: 7px;
+    margin-top: 7px;
+    width: 100%; 
+    padding: 10px;   
+}
+
+button{
+    background-color: #1c2c86;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #3f52c2;
+}
