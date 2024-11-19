@@ -2,19 +2,18 @@ const form = document.getElementById('exercicio-dom');
 
 form.addEventListener('submit' , function (e){
     e.preventDefault();
-
-    const velocidadeA = document.getElementById("campoA")
-    const velocidadeB = document.getElementById("campoB")
-
-    // let primeiroCampo = parseFloat(velocidadeA.value)
-    // let segundoCampo = parseFloat(velocidadeB.value)
     
-    if (velocidadeA.value > velocidadeB.value){
-        alert('A Primeira Velocidade inserida esta Maior');
+    const valorA = document.getElementById("campoA")
+    const valorB = document.getElementById("campoB")
+    
+
+    if (valorA.value > valorB.value){
+        alert('Sucesso');
     }
-    else if (velocidadeA.value < velocidadeB.value){
-        alert('A segunda Velocidade inserida esta Maior ');
+    else if (valorA.value < valorB.value){
+        alert('Erro');
     }
+
     velocidadeA.value = ' '
     velocidadeB.value =' '
 
