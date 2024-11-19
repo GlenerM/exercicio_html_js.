@@ -10,7 +10,7 @@ form.addEventListener('submit' , function (e){
     if (valorA.value > valorB.value){
         alert('Sucesso');
     }
-    else if (valorA.value < valorB.value){
+    else (valorA.value < valorB.value){
         alert('Erro');
     }
 
